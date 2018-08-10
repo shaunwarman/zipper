@@ -1,8 +1,9 @@
 {
-  "name": "zipper",
-  "version": "0.0.1",
+  "name": "zipper-config",
+  "version": "0.0.2",
   "description": "A simple command-line zip utility",
-  "main": "./bin/zipper",
+  "main": "index.js",
+  "bin": "./bin/zipper",
   "scripts": {
     "test": "./node_modules/tape/bin/tape test/test-zipper.js",
     "test:debug": "node --inspect-brk test/test-zipper.js"

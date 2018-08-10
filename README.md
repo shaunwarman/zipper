@@ -6,7 +6,7 @@ This works well as an npm script, most commonly used to package up cloud / lambd
 
 ## Install
 ```
-npm install --save-dev zipper
+npm install --save-dev zipper-config
 ```
 
 ## Use
@@ -16,7 +16,7 @@ npm install --save-dev zipper
 ...
 "script": {
   ...
-  "zip": "zipper" // or zipper --path <path to .zipconfig>
+  "zip": "zipper-config" // or zipper-config --path <path to .zipconfig>
 }
 ```
 
