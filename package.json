@@ -1,0 +1,24 @@
+{
+  "name": "zipper",
+  "version": "0.0.1",
+  "description": "A simple command-line zip utility",
+  "main": "./bin/zipper",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape test/test-zipper.js",
+    "test:debug": "node --inspect-brk test/test-zipper.js"
+  },
+  "keywords": [
+    "zip",
+    "compress",
+    "cloud",
+    "functions"
+  ],
+  "author": "Shaun Warman",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.12.0"
+  },
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}

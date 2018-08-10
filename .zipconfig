@@ -1,0 +1,5 @@
+name: 'zipper'
+exclude:
+ - .git
+ - test/
+ - README.md

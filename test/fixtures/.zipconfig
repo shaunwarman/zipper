@@ -1,0 +1,4 @@
+name: zipper
+exclude:
+  - test
+  - .git

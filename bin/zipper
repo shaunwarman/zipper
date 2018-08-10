@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const Zipper = require('../zipper');
+
+let zipper;
+
+const args = process.argv.slice(2);
+if (args.includes('--path') || args.includes('-p')) {
+  zipper = new Zipper({ path: args[1] });
+}
+else {
+  zipper = new Zipper();
+}
+
+zipper.zip();
